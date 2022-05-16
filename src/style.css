@@ -2,12 +2,118 @@
 
 :root {
   --color-main: #30A5BF;
+  --color-text: #3F3D56;
+  --color-secondary: #108AA5;
+  --color-field: #DDDDDD;
 }
 
 * {
   margin: 0;
   border: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+  text-decoration: none;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+section {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.container {
+  width: 800px;
+  overflow: hidden;
+}
+
+.header {
+  flex-flow: column nowrap;
+  width: 100%;
+  min-height: 200px;
+  border-top: solid 70px var(--color-main);
+}
+
+.app_title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.page_title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 6px;
+  color: var(--color-text);
+}
+
+.page_img {
+  width: 256px;
+  height: 215px;
+}
+
+.primary_btn {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: var(--color-main);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.form_field_conteiner {
+  width: 100%;
+}
+
+.form_field {
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: var(--color-text);
+  background-color: var(--color-field);
+  outline-color: var(--color-text);
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  margin: 0 10px;
+}
+
+.btn {
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  padding: 20px;
+  flex-flow: row nowrap;
+  background-color: #fff;
+  color: var(--color-text);
+}
+
+.content {
+  width: 100%;
+  padding: 40px 20px 0;
+  background-color: var(--color-main);
 }
