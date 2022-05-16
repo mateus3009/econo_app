@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EconoApp - Cadastro produto</title>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <main class="center container">
+    <header class="center header">
+      <h1 class="app_title">EconoApp</h1>
+      <h3 class="page_title">Cadastro produto</h3>
+    </header>
+    <aside>
+      <img class="page_img" src="../../img/undraw_product_photography_91i2.svg" alt="EconoApp">
+    </aside>
+    <section>
+      <form class="center" action="#">
+        <label class="form_field_conteiner">
+          <input class="form_field" type="text" name="codigo_barras" placeholder="Codigo de barras" required>
+        </label>
+        <label class="form_field_conteiner">
+          <input class="form_field" type="text" name="nome_produto" placeholder="Nome Produto" required>
+        </label>
+        <label class="form_field_conteiner">
+          <input class="form_field" type="number" name="preco" placeholder="Preço" min="0" required>
+        </label>
+        <label class="form_field_conteiner">
+          <input class="form_field" type="text" name="estabelecimento" placeholder="Estabelecimento" required>
+        </label>
+        <input class="primary_btn" type="submit" value="Cadastrar">
+      </form>
+    </section>
+  </main>
+</body>
+</html>
