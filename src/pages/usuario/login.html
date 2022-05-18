@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EconoApp - Login usuário</title>
-    <link rel="stylesheet" href="../../style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EconoApp - Login usuário</title>
+  <link rel="stylesheet" href="../../style.css">
 </head>
-<body class="center">
+
+<body>
   <main class="center container">
     <header class="center header">
       <h1 class="app_title">EconoApp</h1>
       <h3 class="page_title">Login usuário</h3>
     </header>
+    <aside>
+      <img class="page_img" src="../../img/undraw_mobile_app_re_catg.svg" alt="EconoApp">
+    </aside>
+    <section>
+      <form class="center" action="#">
+        <label class="form_field_conteiner">
+          <input class="form_field" type="text" name="cpf" placeholder="CPF" required>
+        </label>
+        <label class="form_field_conteiner">
+          <input class="form_field" type="number" name="senha" placeholder="Senha" min="0" required>
+        </label>
+        <input class="primary_btn" type="submit" value="Entrar">
+      </form>
+    </section>
   </main>
 </body>
+
 </html>
