@@ -22,9 +22,9 @@ Aplicativo para Projeto Integrador Web do SENAC
   - exclusao - ok
   - login - ok
 - Produto
-  - menu - Leandro
+  - menu - ok
   - cadastro - ok
   - consulta - Anderson
 - Estabelecimento
-  - cadastro - Edivan
+  - cadastro - ok
 - Ajuda - Fellipe
