@@ -36,7 +36,8 @@ section {
 }
 
 .container {
-  width: 800px;
+  min-width: 100vw;
+  max-width: 800px;
   overflow: hidden;
 }
 
