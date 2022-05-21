@@ -2,7 +2,7 @@
 
 Aplicativo para Projeto Integrador Web do SENAC
 
-# Membros
+# Membros Grupo 7
 
 - Elizângela dos Santos Rodrigues
 - Yanko Benjamin Vasiliev
