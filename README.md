@@ -4,27 +4,20 @@ Aplicativo para Projeto Integrador Web do SENAC
 
 # Membros
 
-- Elizângela dos Santos Rodrigues -ok
-- Yanko Benjamin Vasiliev - ok
-- Mateus Sales Albino - ok
+- Elizângela dos Santos Rodrigues
+- Yanko Benjamin Vasiliev
+- Mateus Sales Albino
 - Fellipe Paz da Mota
 - Anderson Reginaldo de Oliveira
-- Edivan Gomes
-- Leandro Izidoro dos Santos
 
-# Paginas
+# Sobre o projeto
 
-- Pagina inicial - ok
-- Menu principal - ok
-- Usuário
-  - menu - ok
-  - cadastro - ok
-  - exclusao - ok
-  - login - ok
-- Produto
-  - menu - ok
-  - cadastro - ok
-  - consulta - Anderson
-- Estabelecimento
-  - cadastro - ok
-- Ajuda - Fellipe
+  O EconoApp é um aplicativo onde as pessoas podem cadastrar e consultar produtos nos mercados para economizar encontrando o produto no menor preço sempre.
+
+# Sobre o aplicativo
+
+  Realizamos a prototipagem no projeto no [Figma](https://www.figma.com/file/MQRGVt7GXEu5cm1FGSDJD1/PI-WEB-2?node-id=0%3A1) e desenvolvemos as páginas usando HTML e CSS usando a técnica mobile first.
+
+# Como testar o aplicativo
+
+  Para vizualizar o aplicativo basta acessar a página [https://mateus3009.github.io/econo_app/index.html](https://mateus3009.github.io/econo_app/index.html)
